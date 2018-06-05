@@ -1,0 +1,22 @@
+{
+  "name": "@tinymce/tinymce-angular",
+  "description": "Official TinyMCE Angular Component",
+  "version": "2.0.0",
+  "repository": "https://github.com/tinymce/tinymce-angular.git",
+  "author": "Ephox Inc",
+  "license": "Apache-2.0",
+  "private": false,
+  "peerDependencies": {
+    "@angular/core": "^6.0.0",
+    "@angular/common": "^6.0.0",
+    "@angular/forms": "^6.0.0"
+  },
+  "main": "bundles/tinymce-tinymce-angular.umd.js",
+  "module": "esm5/tinymce-tinymce-angular.js",
+  "es2015": "esm2015/tinymce-tinymce-angular.js",
+  "typings": "tinymce-tinymce-angular.d.ts",
+  "metadata": "tinymce-tinymce-angular.metadata.json",
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
